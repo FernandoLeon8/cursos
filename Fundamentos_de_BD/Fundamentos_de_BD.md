@@ -216,7 +216,7 @@ Siempre que queramos obtener una fila de la forma más rápida posible, debemos 
 - **Capa Lógica**: El modelo Entidad-Relación para poder procesar las relaciones “muchos a muchos” las va a partir en entidades que se llaman: Entidades Débiles.
 - **Capa Física**: Este modelo va a ser el paso del modelo lógico hacia la representación que ya va a tener la Base de Datos. En esta capa, ya cada uno de los datos empieza a entrar en las clasificaciones según su tipo de dato.
 
-![Capas de abstraccion del modelo Entidad-Relacion](https://github.com/macknilan/Cuaderno/blob/master/Fundamentos_de_BD/img/Capas_de_abstraccion_del_modelo_Entidad_Relacion.jpg "E-R")
+![Capas de abstraccion del modelo Entidad-Relacion](https://github.com/garibayivan/cursos/blob/master/Fundamentos_de_BD/img/Capas_de_abstraccion_del_modelo_Entidad_Relacion.jpg "E-R")
 
 
 ### Metodología básica de 9 pasos con Barker (Paso 1)
@@ -250,7 +250,7 @@ Pasajero     | :x:   |     1:M   |  1:M |   :x:      |  :x:   |      1:M   | :x:
 
 Entidades y Relaciones en el diagrama conceptual
 
-![Entidad-Relacion](https://github.com/macknilan/Cuaderno/blob/master/Fundamentos_de_BD/img/di_er_fun_bd_platzi.png "E-R")
+![Entidad-Relacion](https://github.com/garibayivan/cursos/blob/master/Fundamentos_de_BD/img/di_er_fun_bd_platzi.png "E-R")
 
 
 ### Metodología de Diseño (Corrección de paso 2 y 3)
@@ -272,7 +272,7 @@ Ciudad       | :x:   |   :x:     |  :x: |   :x:      |  :x:   |      0:M   |  1:
 Pasajero     | :x:   |     1:M   |  :x: |   :x:      |  :x:   |      :x:   | :x:  |  :x:   |   :x::black_small_square:      |
 
 
-![Diagrama Entidad-Relacion](https://github.com/macknilan/Cuaderno/blob/master/Fundamentos_de_BD/img/di_er_fun_bd_platzi_1.png "E-R")
+![Diagrama Entidad-Relacion](https://github.com/garibayivan/cursos/blob/master/Fundamentos_de_BD/img/di_er_fun_bd_platzi_1.png "E-R")
 
 
 ### Metodología de Diseño (Paso 4)
@@ -404,7 +404,7 @@ En las entidades nuevas (ó tablas nuevas), se pueden generar nuevos atributos, 
 
 ## Metodología de Diseño (Paso 8): Construir el Diagrama del Modelo Físico
 
-![Diagrama Entidad-Relacion](https://github.com/macknilan/Cuaderno/blob/master/Fundamentos_de_BD/img/metodologia_de_diseno_paso_8_construir_el_diagrama_del_modelo_fisico.jpg "Paso 8")
+![Diagrama Entidad-Relacion](https://github.com/garibayivan/cursos/blob/master/Fundamentos_de_BD/img/metodologia_de_diseno_paso_8_construir_el_diagrama_del_modelo_fisico.jpg "Paso 8")
 
 Las lineas de las relaciones van a ser **lineas rectas** y **no lineas curvas**, en la relación **uno a muchos** vamos a crear una linea con un sentido que **termina en cabeza de flecha**. Las lineas **1 a 1** ó **0 a 1** se mantienen como antes.
 Las llaves foráneas en **entidades debiles** refieren o **apuntan** hacia su **llave primaria** en entidades fuertes.
